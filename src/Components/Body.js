@@ -6,7 +6,7 @@ export default class Body extends React.Component{
     render(){
         return(
             <div className='post-container'>
-                {images.map((img) => {return <Post title={img}/>})}
+                {images.map((img,  i)=> {return <Post title={img} key={i}/>})}
             </div>
         )
     }

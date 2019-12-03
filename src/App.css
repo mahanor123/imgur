@@ -1,5 +1,6 @@
 *{
   margin: 0;
+  /* padding: 0; */
 }
 
 .post-container{
@@ -14,10 +15,11 @@
 }
 .post{
   width: 200px; 
-  height: 250px; 
+  height: 270px; 
   border: black solid 1px;
   border-radius: 5px;
   background: white;
+
 }
 
 .post-footer{
@@ -28,11 +30,12 @@
 .icons{
   display: flex;
 }
+
 .navbar{
   display: flex;
   align-items: center;
   height: 50px;
-  background: rgb(93, 93, 184);
+  background: rgb(32, 32, 230);
   justify-content: space-around;
 }
 .nav-right{
@@ -65,4 +68,5 @@
   bottom: 0px;
   left: 0px;
   right: 0px;
+
 }
