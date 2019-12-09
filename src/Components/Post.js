@@ -72,7 +72,7 @@ export default class Post extends React.Component{
         return(
             <div className="post">
                 <img style={{boxSizing:'border-box',borderRadius:'5px'}} width='100%' src={logo} alt="react logo"/>
-                <p style={{padding:'0px 10px',backgroundcolor:'grey'}}>{title}</p>
+                <p style={{padding:'0px 10px',backgroundColor:'grey'}}>{title}</p>
                 <div className='post-footer'>
                 <Icon type="like"  theme={this.state.like} onClick={this.handleLike} style={{padding:'0px 15px',outline:'none'}} />
                 <Icon type="dislike"theme={this.state.dislike} onClick={this.handleDislike} style={{padding:'0px 15px',outline:'none'}}/>
