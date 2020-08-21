@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  /* padding: 0; */
+}
+
+.post-container{
+  background: rgb(170, 164, 164);
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px;
+  grid-gap: 20px;
+  margin-bottom: 45px;
+  height: auto;
+  padding: 20px 0px;
+}
+.post{
+  width: 200px; 
+  height: 270px; 
+  border: black solid 1px;
+  border-radius: 5px;
+  background: white;
+
+}
+
+.navbar{
+  height: 380px;
+    width: 100%;
+
+}
+.canva{
+  position: absolute;
+  height: 380px;
+  width:100%;
+  background-color:#171544;
+}
+.pannel{
+  position: absolute;
+
+}
